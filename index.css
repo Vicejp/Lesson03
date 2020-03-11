@@ -9,27 +9,121 @@ COLOR PALETTE as described in video
 
 /*Global Styles
 -------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
 body {
-    color: #343434;
+    color: palevioletred;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+    
+
 }
 img {
     width: 300px;
     
 }
 a {
-    color:#FFE66D;
+    color: rgb(185, 21, 90);
 }
 a:hover {
     text-decoration: none;
 }
-/* Profile
-------------------------------*/
-header {
-    background-color:#2F3061;
-    color:#F7FFF7;
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+   
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #ff00de,
+        0 0 70px #ff00de,
+        0 0 80px #ff00de,
+        0 0 100px #ff00de,
+        0 0 150px #ff00de;
+        
+}
+.h1-edit {
+    color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+h2 {
+  
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
 }
 
 
+.content-wrap { 
+    width: 715px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* Profile
+------------------------------*/
+header {
+    background-color: pink;
+    color: rgb(185, 21, 90);
+    background-image: url(pinkdust.png);
+}
+.dropbtn {
+    background-color: rgb(red, green, rgb(88, 30, 54));
+    color: rgb(88, 30, 54);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  
+  .dropdown-content a {
+    color: rgb(88, 30, 54)
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Nanum Myeongjo', serif;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(185, 21, 90)}
 /*Projects
 ---------------------------------*/
 .projects {
@@ -40,35 +134,57 @@ header {
 }
 .projects a {
     color: #F7FFF7;
-    background: #2F3061;
+    background: pink;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
 }
 
 .projects a:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: rgba(47, 97, 86, 0.8);
 }
-
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin: 4px;
+}
+.project-item h3{
+    margin-top: 0;
+}
 
 
 /*Work Experience
 ------------------------------------*/
 .work-experience {
-   background: #A1C6D7;
+  background-color:rgb(231, 219, 224);
 }
 
 
-
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(238, 210, 226);
+    
+}
 /*Education
 -------------------------------------*/
-
-
-
+.education {
+    
+    color:  rgb(145, 72, 102);
+   background-color: rgb(231, 219, 224);
+   
+    
+}
 /*Contact Info
 ----------------------------------*/
 
 footer {
-    background-color: #343434;
-    color:#F7FFF7;
+    background-color: rgb(red, green, rgb(185, 21, 90);
+    color: rgb(185, 21, 90);
+    background-image: url(sunny.png);
+    
 }
