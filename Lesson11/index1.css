@@ -1,0 +1,101 @@
+.header {
+  padding: 120px;
+  margin-left: 50px; 
+  margin-right: 50px;
+  margin-top: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+}
+
+.header2 {
+    
+        padding: 10px;
+        margin-left: 50px; 
+        margin-right: 50px;
+        margin-top: 20px;
+        text-align: center;
+        background: rgb(red, rgb(0, 0, 0), blue)
+        color: gray;
+        font-size: 30px;
+        font-family: 'Special Elite', cursive;
+      
+}
+h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  
+}
+.aside1 {
+  display: block;
+  padding: 20px;
+ 
+  margin: 20px;
+  width: 200px;
+  font-size: 18px;
+  float: left;
+  border-style: dotted;
+  border-color: black;
+  font-family: 'Special Elite', cursive;
+  }
+
+.aside2 {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  font-size: 30px;
+  float: right;
+  border-color: black;
+  border-style: dotted;
+  font-family: 'Special Elite', cursive;
+}
+.aside3 {
+    display: block;
+    padding: 20px;
+    padding-right: 40px;
+    margin: 20px;
+    width: 300px;
+    font-size: 30px;
+    float: right;
+    margin-right: 60px;
+    margin-left: auto;
+    border-color: black;
+    border-style: dotted;
+    font-family: 'Special Elite', cursive;
+  }
+  .aside4 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 499px;
+    font-size: 18px;
+    float: left;
+    border-style: dotted;
+    border-color: black;
+    font-family: 'Special Elite', cursive;
+    }
+   
+
+nav {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 17px;
+}
+
+
+img {
+    width: 100%;
+}
+/*desktop*/
+@media only screen and (min-width: 768px) {
+    max-width: width 100px;
+}
+/*tablet*/
+@media only screen and (min-width: 600px) {
+    max-width: 100%;
